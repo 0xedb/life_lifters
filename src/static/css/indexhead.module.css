@@ -13,6 +13,18 @@
   height: var(--mobile_header_height);
 }
 
+.centered {
+  text-align: center;
+}
+
+.author_set {
+  display: block;
+  text-align: right;
+  padding-right: 19px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
 .page_bg_container {
   position: relative;
   height: 100%;
@@ -20,21 +32,21 @@
 
 .page_bg_image {
   object-fit: cover;
-  object-position: center center; 
+  object-position: center center;
 }
 
 .page_bg_filter {
-  position: absolute; 
+  position: absolute;
   background: #4a4438a4;
   z-index: 4;
 }
 
 .page_head_content {
-    color: #f5f5f5;
-    display: flex;
-    background: unset; 
-    justify-content: center;
-    align-items: center;
+  color: #f5f5f5;
+  display: flex;
+  background: unset;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 640px) {

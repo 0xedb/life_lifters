@@ -5,11 +5,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "gatsby develop"
+    "dev": "gatsby develop -H 0.0.0.0 -p 8080"
   },
   "dependencies": {
     "gatsby": "^2.15.28",
+    "gatsby-plugin-react-helmet": "^3.1.10",
     "react": "^16.10.1",
-    "react-dom": "^16.10.1"
+    "react-dom": "^16.10.1",
+    "react-helmet": "^5.2.1"
   }
 }

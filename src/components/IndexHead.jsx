@@ -10,11 +10,20 @@ function IndexHead() {
       <NavBar />
       <div className={styles.page_head}>
         <div className={styles.page_bg_container}>
-          <div className={`${styles.page_bg_filter} ${styles.full_dimension}`}> 
-          </div>
+          <div
+            className={`${styles.page_bg_filter} ${styles.full_dimension}`}
+          ></div>
           <div
             className={`${styles.page_bg_filter} ${styles.full_dimension} ${styles.page_head_content}`}
-          >ddasfddddddddddddddddddddddddd</div>
+          >
+            <div className={styles.centered}>
+              <h1>
+                When you educate a woman you set her free
+                <span className={styles.author_set}>~ Oprah Winfrey</span>
+              </h1>
+              We are unapologetic women rights activists
+            </div>
+          </div>
           <picture>
             <source srcSet={main_bg_big} media="(min-width: 640px)" />
             <img
