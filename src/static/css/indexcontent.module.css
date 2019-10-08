@@ -5,9 +5,16 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;;
+  text-align: center;
+}
+
+.content_head {
+  text-transform: uppercase;
   margin: 10px 10%;
   border-bottom: 2px dashed violet;
+}
+main > section {
+    padding: 8px;
 }
 
 @media (min-width: 640px) {

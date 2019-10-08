@@ -1,0 +1,10 @@
+@import './base.css';
+
+.page_footer {
+    background: rgb(240, 238, 234)
+}
+
+@media(min-width: 640px) {
+
+
+}
