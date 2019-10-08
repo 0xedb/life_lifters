@@ -1,0 +1,13 @@
+@import './base.css';
+
+.navbar {
+  height: 52px;
+  background: black;
+  z-index: 6;
+}
+
+@media (min-width: 640px) {
+  .navbar {
+    height: var(--navbar_height_desktop);
+  }
+}
