@@ -6,15 +6,33 @@
 }
 
 .page_header {
-  background: wheat;
 }
 
 .page_head {
   height: var(--mobile_header_height);
+  min-height: 340px;
 }
 
 .centered {
   text-align: center;
+}
+
+.empower_girls {
+  position: relative;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  z-index: 4;
+  top: -24px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.flex_center {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .author_set {
@@ -51,6 +69,22 @@
 
 @media (min-width: 640px) {
   .page_head {
-    height: 60vh;
+    height: 60vh; 
+  }
+
+  .flex_center {margin-top: 20px;
+    flex-flow: row;
+    justify-content: space-evenly; 
+  }
+
+  .empower_girls {
+    position: unset;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    z-index: unset;
+    
+    object-fit: cover;
+    object-position: center center;
   }
 }

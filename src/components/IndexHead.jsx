@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import styles from '../static/css/indexhead.module.css';
 import main_bg from '../static/images/tucker-tangeman-IrtRZ-6HxIE-unsplash.jpg';
 import main_bg_big from '../static/images/randy-fath-osXl4JI3vcQ-unsplash.jpg';
+import empower_girls from '../static/images/empower_girls.jpg';
 
 function IndexHead() {
   return (
@@ -33,6 +34,14 @@ function IndexHead() {
             />
           </picture>
         </div>
+      </div>
+      <div className={styles.flex_center}>
+        <img
+          className={styles.empower_girls}
+          src={empower_girls}
+          alt="empower girls"
+        />
+        <p>Empowering one girl at a time</p>
       </div>
     </header>
   );

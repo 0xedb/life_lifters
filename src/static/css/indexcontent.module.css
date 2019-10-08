@@ -1,0 +1,14 @@
+@import './base.css';
+
+.centered {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;;
+  margin: 10px 10%;
+  border-bottom: 2px dashed violet;
+}
+
+@media (min-width: 640px) {
+}
