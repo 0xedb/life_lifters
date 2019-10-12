@@ -19,17 +19,22 @@ main > aside {
   text-align: center;
 }
 
-.card_container {
+.card_container, .team_container {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.team_container{
+  flex-flow: row wrap;
 }
 
 @media (min-width: 640px) {
-  main > section,
+  /* main > section,
   main > aside {
     text-align: unset;
-  }
+  } */
 
   .card_container {
     flex-flow: row wrap;

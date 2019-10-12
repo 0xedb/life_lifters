@@ -4,6 +4,7 @@ import CardContent from './CardContent';
 import story from '../static/images/story.svg';
 import career from '../static/images/career.svg';
 import skill from '../static/images/skill.svg';
+import chebii from '../static/images/chebii.jpg';
 
 function IndexConent() {
   return (
@@ -55,16 +56,28 @@ function IndexConent() {
       </section>
       <section>
         <h2>Team</h2>
-        <div className={styles.card_container}>
+        <div className={styles.team_container}>
           <CardContent
-            icon={skill}
+            icon={chebii}
             just="left"
-            title="Skill Development"
-            description="How do we empower girls to be economically independent? This
-            program tackles complex questions like this and equips girls with both
-            hard and soft skills they need to survive. In this program we explore
-            entrepreneurship, human rights, sexual reproductive health and other
-            relevant skills like goal-setting and financial management."
+            round
+            name="Cynthia Muhonja"
+            title="Founder & Executive Director"
+            description="shapes and approves the
+            organization’s strategies, reviews
+            results, and sets the overall
+            direction of the organization."
+          />
+          <CardContent
+            icon={chebii}
+            just="left"
+            round
+            name="Jeptanui Chebii"
+            title="Programs Director"
+            description="shapes and approves the
+            organization’s strategies, reviews
+            results, and sets the overall
+            direction of the organization."
           />
         </div>
         <CardContent />

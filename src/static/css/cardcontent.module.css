@@ -1,11 +1,10 @@
 @import './base.css';
 
-.card {
+.card, .card_round {
   display: flex;
   flex-flow: column nowrap;
   margin: 8px;
-  margin-bottom: 60px;
-  /* border-radius: 8px; */
+  margin-bottom: 40px; 
   justify-content: center;
   align-items: center;
   min-width: 300px;
@@ -14,17 +13,29 @@
   padding: 14px 10px;
 }
 
+.card_round {
+    border: unset;
+}
+
 .card_icon_container {
   width: 100%;
   height: 240px;
 }
 
-.card_icon {
+.card_icon  {
   object-fit: contain;
   object-position: center center;
   height: 100%;
   width: 100%;
 }
+
+.card_icon_round {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top; 
+  }
 
 .card_description {
   text-align: center;
@@ -32,7 +43,9 @@
 }
 
 @media (min-width: 640px) {
-  .card {
-    max-width: 720px;
+  .card, .card_round {
+    max-width: 580px;
+    height: 430px;
+    max-height: 470px;
   }
 }
