@@ -5,17 +5,23 @@ import story from '../static/images/story.svg';
 import career from '../static/images/career.svg';
 import skill from '../static/images/skill.svg';
 import chebii from '../static/images/chebii.jpg';
+import kate from '../static/images/kate.jpg';
+import dorina from '../static/images/dorina.png';
+import terer from '../static/images/terer.png';
+import elliot from '../static/images/elliot.png';
 
 function IndexConent() {
   return (
     <main>
-      <div className={`${styles.centered} ${styles.content_head}`}>
-        Our Vision
+      <div className={styles.content_heading}>
+        <div className={`${styles.centered} ${styles.content_head}`}>
+          Our Vision
+        </div>
+        <section className={styles.centered}>
+          To create sustainable, economically, and socially empowered society
+          that brings up healthy generations
+        </section>
       </div>
-      <section className={styles.centered}>
-        To create sustainable, economically, and socially empowered society that
-        brings up healthy generations
-      </section>
       <section>
         <h2>Our Work</h2>
         <div className={styles.card_container}>
@@ -80,19 +86,74 @@ function IndexConent() {
             direction of the organization."
           />
         </div>
-        <CardContent />
-      </section>
-      <section>
-        <h2>Our Team</h2>
-        <CardContent />
       </section>
       <section>
         <h2>Mentors</h2>
-        <CardContent />
+        <div className={styles.mentor_container}>
+          <CardContent
+            icon={kate}
+            just="left"
+            round
+            name="Kate Kiama"
+            description="Kate is a born feminist who is passionate
+          about law and addressing social injustices
+          that affect women and adolescent girls
+          globally. She holds a bachelor of law from
+          university of London and is an advocate for
+          the high court of Kenya. She previously
+          worked as a lawyer and program associate
+          at Aids Law project and undertook her
+          articles at Tripleoklaw Advocates LLP."
+          />
+          <CardContent
+            icon={dorina}
+            just="left"
+            round
+            name="Jeptanui Chebii"
+            description="Dorina is a gospel minister and pastor. She
+          is a professional councilor from Eldoret, a
+          part time Lecturer at KMTC and a
+          radiographer doing sonography at Moi
+          Teaching and Referral hospital in Eldoret.
+          She manages diverse groups of people
+          from different backgrounds, genders, age
+          groups and loves visiting the sick."
+          />
+          <CardContent
+            icon={terer}
+            just="left"
+            round
+            name="Emmanuel Terer"
+            description="Emmanuel is a journalist and motivational
+          speaker who despite his challenging
+          background has defied the odds to
+          become successful. He is passionately
+          curious about media, youths and currently
+          works for Citizen TV as a news reporter."
+          />
+          <CardContent
+            icon={elliot}
+            just="left"
+            round
+            name="Elliot Berry"
+            description="Elliot Berry is the founder of the Noah
+            Initiative, an organization that has
+            dedicate its work in youth development,
+            community activism and community
+            empowerment. He is originally from West
+            England but now resides in Kenya. He is
+            passionate about youth and gender
+            equality."
+          />
+        </div>
       </section>
       <aside>
         <h2>Gallery</h2>
-        <CardContent />
+        
+        
+
+
+        
       </aside>
     </main>
   );

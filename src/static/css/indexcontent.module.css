@@ -19,14 +19,21 @@ main > aside {
   text-align: center;
 }
 
-.card_container, .team_container {
+.content_heading {
+  background: wheat;
+  padding: 10px 8px;
+  margin-top: 10px;
+}
+
+.card_container,
+.team_container, .mentor_container {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
 
-.team_container{
+.team_container, .mentor_container {
   flex-flow: row wrap;
 }
 

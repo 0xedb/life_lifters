@@ -9,7 +9,8 @@
   align-items: center;
   min-width: 300px;
   width: 100%;
-  border: 0.5px solid cornflowerblue;
+  border-radius: 5px;
+  border: 0.9px solid cornflowerblue;
   padding: 14px 10px;
 }
 
@@ -47,5 +48,11 @@
     max-width: 580px;
     height: 430px;
     max-height: 470px;
+  }
+
+  .card_round {
+      max-width: 400px;
+      height: 480px;
+      max-height: 500px;
   }
 }
