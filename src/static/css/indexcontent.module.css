@@ -13,9 +13,25 @@
   margin: 10px 10%;
   border-bottom: 2px dashed violet;
 }
-main > section {
-    padding: 8px;
+main > section,
+main > aside {
+  padding: 8px;
+  text-align: center;
+}
+
+.card_container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;align-items: center;
 }
 
 @media (min-width: 640px) {
+  main > section,
+  main > aside {
+    text-align: unset;
+  }
+
+  .card_container {
+    flex-flow: row wrap;
+  }
 }
