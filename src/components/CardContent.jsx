@@ -4,7 +4,7 @@ import styles from '../static/css/cardcontent.module.css';
 function CardContent({icon, title, description, just, round, name}) {
   const design = round ? styles.card_icon_round : styles.card_icon;
   const card = round ? styles.card_round : styles.card;
-  const headings = round ? <h2 style={{paddingTop: '60px'}}>{name}</h2> : <></>;
+  const headings = round ? <h2>{name}</h2> : <></>;
 
   return (
     <div className={card}>
@@ -14,7 +14,7 @@ function CardContent({icon, title, description, just, round, name}) {
             <img className={design} src={icon} alt={title} />
           </div>
         ) : (
-          <></>
+          null
         )}
         <div>
           {headings}

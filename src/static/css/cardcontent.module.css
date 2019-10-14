@@ -1,13 +1,13 @@
 @import './base.css';
 
-.card, .card_round {
+.card,
+.card_round {
   display: flex;
   flex-flow: column nowrap;
   margin: 8px;
   margin-bottom: 40px; 
-  justify-content: center;
   align-items: center;
-  min-width: 300px;
+  min-width: 250px;
   width: 100%;
   border-radius: 5px;
   border: 0.9px solid cornflowerblue;
@@ -15,15 +15,15 @@
 }
 
 .card_round {
-    border: unset;
-}
+  border: unset;
+} 
 
 .card_icon_container {
-  width: 100%;
-  height: 240px;
+  width: 300px;
+  height: 300px;
 }
 
-.card_icon  {
+.card_icon {
   object-fit: contain;
   object-position: center center;
   height: 100%;
@@ -31,12 +31,12 @@
 }
 
 .card_icon_round {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center top; 
-  }
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+}
 
 .card_description {
   text-align: center;
@@ -44,15 +44,14 @@
 }
 
 @media (min-width: 640px) {
-  .card, .card_round {
+  .card {
     max-width: 580px;
-    height: 430px;
-    max-height: 470px;
+    height: 500px;
   }
 
   .card_round {
-      max-width: 400px;
-      height: 480px;
-      max-height: 500px;
+    max-width: 360px;
+    height: 580px;
+    max-height: 600px; 
   }
 }

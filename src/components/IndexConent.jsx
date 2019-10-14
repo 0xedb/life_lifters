@@ -9,6 +9,9 @@ import kate from '../static/images/kate.jpg';
 import dorina from '../static/images/dorina.png';
 import terer from '../static/images/terer.png';
 import elliot from '../static/images/elliot.png';
+import cynthia from '../static/images/cynthia.jpg';
+import caren from '../static/images/caren.png';
+import maria from '../static/images/maria.jpg';
 
 function IndexConent() {
   return (
@@ -64,7 +67,7 @@ function IndexConent() {
         <h2>Team</h2>
         <div className={styles.team_container}>
           <CardContent
-            icon={chebii}
+            icon={cynthia}
             just="left"
             round
             name="Cynthia Muhonja"
@@ -109,7 +112,7 @@ function IndexConent() {
             icon={dorina}
             just="left"
             round
-            name="Jeptanui Chebii"
+            name="Dorina Akwanyi Libuli"
             description="Dorina is a gospel minister and pastor. She
           is a professional councilor from Eldoret, a
           part time Lecturer at KMTC and a
@@ -117,7 +120,33 @@ function IndexConent() {
           Teaching and Referral hospital in Eldoret.
           She manages diverse groups of people
           from different backgrounds, genders, age
-          groups and loves visiting the sick."
+          groups and loves visiting the sick"
+          />
+          <CardContent
+            icon={caren}
+            just="left"
+            round
+            name="Caren Odhiambo"
+            description="Caren is a graduate from Moi University
+            with a degree in counselling Psychology.
+            She has worked in a prison as a
+            counselling psychologist and is very
+            passionate about helping individuals
+            discover their true self"
+          />
+          <CardContent
+            icon={maria}
+            just="left"
+            round
+            name="Maria Omulubi"
+            description="Maria is an international relations and
+            development enthusiast who lives in Kenya
+            with her family. She is passionate about
+            engaging youth in agriculture and building
+            greater diversity and inclusion in social
+            enterprises. She currently works with
+            One Acre Fund as a lead for the People
+            Division"
           />
           <CardContent
             icon={terer}
@@ -149,11 +178,6 @@ function IndexConent() {
       </section>
       <aside>
         <h2>Gallery</h2>
-        
-        
-
-
-        
       </aside>
     </main>
   );
