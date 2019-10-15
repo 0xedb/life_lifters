@@ -14,36 +14,63 @@ import cynthia from '../static/images/cynthia.jpg';
 import caren from '../static/images/caren.png';
 import maria from '../static/images/maria.jpg';
 import students from '../static/images/students.jpg';
+import gallery1 from '../static/images/gallery_1.jpg';
+import gallery2 from '../static/images/gallery_2.jpg';
+import gallery3 from '../static/images/gallery_3.jpg';
+import gallery4 from '../static/images/gallery_4.jpg';
+import gallery5 from '../static/images/gallery_5.jpg';
+import gallery6 from '../static/images/gallery_6.jpg';
+
+import gallery1_thumb from '../static/images/gallery_1_thumb.jpg';
+import gallery2_thumb from '../static/images/gallery_2_thumb.jpg';
+import gallery3_thumb from '../static/images/gallery_3_thumb.jpg';
+import gallery4_thumb from '../static/images/gallery_4_thumb.jpg';
+import gallery5_thumb from '../static/images/gallery_5_thumb.jpg';
+import gallery6_thumb from '../static/images/gallery_6_thumb.jpg';
 
 const alt = 'gallery image';
 
 const IMAGES = [
   {
-    src: maria,
-    thumbnail: maria,
-    thumbnailWidth: 130,
-    thumbnailHeight: 130,
+    src: gallery1,
+    thumbnail: gallery1_thumb,
+    thumbnailWidth: 200,
+    thumbnailHeight: 133,
     alt,
   },
   {
-    src: cynthia,
-    thumbnail: cynthia,
-    thumbnailWidth: 130,
-    thumbnailHeight: 130,
+    src: gallery2,
+    thumbnail: gallery2_thumb,
+    thumbnailWidth: 200,
+    thumbnailHeight: 133,
     alt,
   },
   {
-    src: maria,
-    thumbnail: maria,
-    thumbnailWidth: 130,
-    thumbnailHeight: 130,
+    src: gallery3,
+    thumbnail: gallery3_thumb,
+    thumbnailWidth: 200,
+    thumbnailHeight: 133,
     alt,
   },
   {
-    src: dorina,
-    thumbnail: dorina,
-    thumbnailWidth: 130,
-    thumbnailHeight: 130,
+    src: gallery4,
+    thumbnail: gallery4_thumb,
+    thumbnailWidth: 200,
+    thumbnailHeight: 133,
+    alt,
+  },
+  {
+    src: gallery5,
+    thumbnail: gallery5_thumb,
+    thumbnailWidth: 200,
+    thumbnailHeight: 133,
+    alt,
+  },
+  {
+    src: gallery6,
+    thumbnail: gallery6_thumb,
+    thumbnailWidth: 200,
+    thumbnailHeight: 133,
     alt,
   },
 ];
@@ -222,7 +249,10 @@ function IndexConent() {
       <aside id="gallery">
         <h2 style={{marginTop: '52px'}}>Gallery</h2>
         <div className={styles.gallery}>
-          <Gallery images={IMAGES} />
+          <Gallery
+            images={IMAGES} 
+            enableImageSelection={false}
+          />
         </div>
       </aside>
     </main>

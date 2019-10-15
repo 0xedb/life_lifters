@@ -1,10 +1,10 @@
 @import './base.css';
 
 .page_footer {
-    background: #614b1e
+  position: relative;
+  bottom: 0;
+  background: #614b1e;
 }
 
-@media(min-width: 640px) {
-
-
+@media (min-width: 640px) {
 }
