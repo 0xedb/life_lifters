@@ -99,19 +99,48 @@ function IndexConent() {
             </p>
           </section>
         </section>
-        {/*<section className={`${styles.do} ${styles.centered}`}>
+        <section
+          id="work"
+          className={`${styles.do} ${styles.centered}`}
+          style={{paddingTop: '52px'}}
+        >
           <img
             className={styles.content_image}
             src={students}
             alt="content background"
           />
+          <h2>What We Do</h2>
           <div className={styles.do_content}>
-            dkafdl fdkafdl fdka fdlfdka fdlfdka fdlfd kafdl fdk afdlfdkafdlf
-            dkafdlfdkafdlfd kafdlfdkafdlfdkaf dlfdkafdlfdkafdlfdkafdlf dkafdlf
-            dkafdlfdkafd lfdkafdl fdkafdlfdkafdlfdkafdlfdkafdlf dkafdlfdkafdl
-            fdkaf dlfdka fd lfdkafdlfdk afdlfdkafdlfdkafdlf
+            <p>
+              We believe in quality and not quantity. We understand that our
+              power lies in empowering and equipping one girl at a time.
+            </p>
+            <p>
+              We work with girls and young women from rural communities in Kenya
+              to empower them economically. Life Lifters runs a two-tier program
+              that is focused on girl education and entrepreneurship. Our girl
+              education program is targeted at smart underprivileged girls
+              between the ages of 13-20 who are currently in school and aspire
+              to be the next leaders in the community. In this program we
+              empower girls by supporting their education through scholarships
+              and provision of key resources such as books sanitary towels. Our
+              mentors also work with the girls to provide them with key
+              trainings on human rights and equip them with useful hard and soft
+              skills to survive.
+            </p>
+            <p>
+              Our entrepreneurship program is fully targeted at girls and young
+              mothers who for one reason or another are out of school an cannot
+              go back. In this program Life Lifters invests resources in
+              training these young women on how to launch, manage and grow their
+              own businesses. We provide special trainings in hairdressing,
+              farming, business management and financial management that are
+              tailored at providing a secondary or even primary source of income
+              to these women.
+            </p>
           </div>
-        </section>
+        </section>{' '}
+        {/*<
         <div className={`${styles.centered} ${styles.content_head}`}>
           Our Vision
         </div>

@@ -33,7 +33,10 @@ function NavBar() {
       >
         <div className={styles.menu_center}>
           <a className={styles.menu_link} href="#about">
-            about
+            about 
+          </a>
+          <a className={styles.menu_link} href="#work">
+             work
           </a>
           <a className={styles.menu_link} href="#programs">
             programs
