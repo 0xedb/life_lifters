@@ -8,6 +8,17 @@
   text-align: center;
 }
 
+.do {
+  width: 100%; 
+  height: 400px;  
+}
+
+.do_content{
+  width: inherit;
+  height: 100%;
+  background: rgba(20, 15, 6, 0.24);
+}
+
 .content_head {
   text-transform: uppercase;
   margin: 10px 10%;
@@ -20,9 +31,8 @@ main > aside {
 }
 
 .content_heading {
-  background: wheat;
-  padding: 10px 8px;
-  margin-top: 10px;
+  background: wheat; 
+  margin-top: 30px;
 }
 
 .card_container,

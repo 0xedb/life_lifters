@@ -12,11 +12,15 @@ import elliot from '../static/images/elliot.png';
 import cynthia from '../static/images/cynthia.jpg';
 import caren from '../static/images/caren.png';
 import maria from '../static/images/maria.jpg';
+import students from '../static/images/students.jpg';
 
 function IndexConent() {
   return (
     <main>
       <div className={styles.content_heading}>
+      <section className={`${styles.do} ${styles.centered}`} style={{background: `url(${students}) fixed center center cover no-repeat `}}>
+      <div className={styles.do_content}>dkafdlf</div>
+      </section>
         <div className={`${styles.centered} ${styles.content_head}`}>
           Our Vision
         </div>
@@ -26,7 +30,7 @@ function IndexConent() {
         </section>
       </div>
       <section>
-        <h2>Our Work</h2>
+        <h2>Our Programs</h2>
         <div className={styles.card_container}>
           <CardContent
             icon={story}
