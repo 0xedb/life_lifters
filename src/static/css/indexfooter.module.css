@@ -3,8 +3,16 @@
 .page_footer {
   position: relative;
   bottom: 0;
-  background: #614b1e;
+  background: #2B3F45;
+  height: 40px;
+  color: #FFC107;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 20px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px) { 
 }

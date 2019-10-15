@@ -4,8 +4,7 @@ import styles from '../static/css/indexfooter.module.css';
 function IndexFooter() {
   return (
     <footer className={styles.page_footer}>
-      the missionaries, the train reached Case’s station. Light from a service
-      hatch at the rear of t responses.
+      &copy; Life Lifters {new Date().getFullYear()}
     </footer>
   );
 }
