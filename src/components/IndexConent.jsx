@@ -1,4 +1,5 @@
 import React from 'react';
+import Gallery from 'react-grid-gallery';
 import styles from '../static/css/indexcontent.module.css';
 import CardContent from './CardContent';
 import story from '../static/images/story.svg';
@@ -14,13 +15,51 @@ import caren from '../static/images/caren.png';
 import maria from '../static/images/maria.jpg';
 import students from '../static/images/students.jpg';
 
+const alt = 'gallery image';
+
+const IMAGES = [
+  {
+    src: maria,
+    thumbnail: maria,
+    thumbnailWidth: 130,
+    thumbnailHeight: 130,
+    alt,
+  },
+  {
+    src: cynthia,
+    thumbnail: cynthia,
+    thumbnailWidth: 130,
+    thumbnailHeight: 130,
+    alt,
+  },
+  {
+    src: maria,
+    thumbnail: maria,
+    thumbnailWidth: 130,
+    thumbnailHeight: 130,
+    alt,
+  },
+  {
+    src: dorina,
+    thumbnail: dorina,
+    thumbnailWidth: 130,
+    thumbnailHeight: 130,
+    alt,
+  },
+];
+
 function IndexConent() {
   return (
     <main>
       <div className={styles.content_heading}>
-      <section className={`${styles.do} ${styles.centered}`} style={{background: `url(${students}) fixed center center cover no-repeat `}}>
-      <div className={styles.do_content}>dkafdlf</div>
-      </section>
+        <section
+          className={`${styles.do} ${styles.centered}`}
+          style={{
+            background: `url(${students}) fixed center center cover no-repeat `,
+          }}
+        >
+          <div className={styles.do_content}>dkafdlf</div>
+        </section>
         <div className={`${styles.centered} ${styles.content_head}`}>
           Our Vision
         </div>
@@ -29,8 +68,8 @@ function IndexConent() {
           that brings up healthy generations
         </section>
       </div>
-      <section>
-        <h2>Our Programs</h2>
+      <section id="programs">
+        <h2 style={{marginTop: '52px'}}>Our Programs</h2>
         <div className={styles.card_container}>
           <CardContent
             icon={story}
@@ -67,8 +106,8 @@ function IndexConent() {
           />
         </div>
       </section>
-      <section>
-        <h2>Team</h2>
+      <section id="team">
+        <h2 style={{marginTop: '52px'}}>Team</h2>
         <div className={styles.team_container}>
           <CardContent
             icon={cynthia}
@@ -94,8 +133,8 @@ function IndexConent() {
           />
         </div>
       </section>
-      <section>
-        <h2>Mentors</h2>
+      <section id="mentors">
+        <h2 style={{marginTop: '52px'}}>Mentors</h2>
         <div className={styles.mentor_container}>
           <CardContent
             icon={kate}
@@ -180,8 +219,11 @@ function IndexConent() {
           />
         </div>
       </section>
-      <aside>
-        <h2>Gallery</h2>
+      <aside id="gallery">
+        <h2 style={{marginTop: '52px'}}>Gallery</h2>
+        <div className={styles.gallery}>
+          <Gallery images={IMAGES} />
+        </div>
       </aside>
     </main>
   );
