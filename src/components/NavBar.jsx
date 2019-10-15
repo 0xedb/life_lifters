@@ -32,6 +32,9 @@ function NavBar() {
         onClick={handleMenuClick}
       >
         <div className={styles.menu_center}>
+          <a className={styles.menu_link} href="#about">
+            about
+          </a>
           <a className={styles.menu_link} href="#programs">
             programs
           </a>

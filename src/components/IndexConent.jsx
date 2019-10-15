@@ -80,12 +80,37 @@ function IndexConent() {
     <main>
       <div className={styles.content_heading}>
         <section
-          className={`${styles.do} ${styles.centered}`}
-          style={{
-            background: `url(${students}) fixed center center cover no-repeat `,
-          }}
+          id="about"
+          className={styles.centered}
+          style={{paddingTop: '52px'}}
         >
-          <div className={styles.do_content}>dkafdlf</div>
+          <h2>Our Vision</h2>
+          <p>
+            To build a sustainable, economically, and socially empowered society
+            that brings up healthy generations
+          </p>
+          <section>
+            <h2>Who Are We?</h2>
+            <p>
+              We are a women empowerment incubator that seeks to build the next
+              generation of economically empowered women in Africa. We work with
+              women and girls from underprivileged backgrounds and underserved
+              communities in the Kenya
+            </p>
+          </section>
+        </section>
+        {/*<section className={`${styles.do} ${styles.centered}`}>
+          <img
+            className={styles.content_image}
+            src={students}
+            alt="content background"
+          />
+          <div className={styles.do_content}>
+            dkafdl fdkafdl fdka fdlfdka fdlfdka fdlfd kafdl fdk afdlfdkafdlf
+            dkafdlfdkafdlfd kafdlfdkafdlfdkaf dlfdkafdlfdkafdlfdkafdlf dkafdlf
+            dkafdlfdkafd lfdkafdl fdkafdlfdkafdlfdkafdlfdkafdlf dkafdlfdkafdl
+            fdkaf dlfdka fd lfdkafdlfdk afdlfdkafdlfdkafdlf
+          </div>
         </section>
         <div className={`${styles.centered} ${styles.content_head}`}>
           Our Vision
@@ -93,7 +118,7 @@ function IndexConent() {
         <section className={styles.centered}>
           To create sustainable, economically, and socially empowered society
           that brings up healthy generations
-        </section>
+  </section>*/}
       </div>
       <section id="programs">
         <h2 style={{marginTop: '52px'}}>Our Programs</h2>
@@ -249,10 +274,7 @@ function IndexConent() {
       <aside id="gallery">
         <h2 style={{marginTop: '52px'}}>Gallery</h2>
         <div className={styles.gallery}>
-          <Gallery
-            images={IMAGES} 
-            enableImageSelection={false}
-          />
+          <Gallery images={IMAGES} enableImageSelection={false} />
         </div>
       </aside>
     </main>
