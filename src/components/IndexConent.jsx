@@ -91,7 +91,7 @@ function IndexConent() {
           </p>
           <section>
             <h2>Who Are We?</h2>
-            <p style={{maxWidth: '900px'}}>
+            <p>
               We are a women empowerment incubator that seeks to build the next
               generation of economically empowered women in Africa. We work with
               women and girls from underprivileged backgrounds and underserved
@@ -110,11 +110,7 @@ function IndexConent() {
             alt="content background"
           />
           <h2>What We Do</h2>
-          <div className={styles.do_content}>
-            <p>
-              We believe in quality and not quantity. We understand that our
-              power lies in empowering and equipping one girl at a time.
-            </p>
+          <div className={styles.do_content}> 
             <p>
               We work with girls and young women from rural communities in Kenya
               to empower them economically. Life Lifters runs a two-tier program

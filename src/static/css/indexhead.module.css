@@ -21,7 +21,7 @@
   width: 200px;
   height: 200px;
   z-index: 4;
-  top: -24px;
+  /* top: -24px; */
   object-fit: cover;
   object-position: center center;
 }

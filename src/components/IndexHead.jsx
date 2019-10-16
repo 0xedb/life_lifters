@@ -35,13 +35,19 @@ function IndexHead() {
           </picture>
         </div>
       </div>
-      <div className={styles.flex_center}>
+      <div
+        className={styles.flex_center}
+        style={{maxWidth: '1000px', margin: '30px auto'}}
+      >
         <img
           className={styles.empower_girls}
           src={empower_girls}
           alt="empower girls"
         />
-        <p>Empowering one girl at a time</p>
+        <p style={{padding: '2px 20px'}}>
+          We believe in quality and not quantity. We understand that our power
+          lies in empowering and equipping one girl at a time
+        </p>
       </div>
     </header>
   );

@@ -18,7 +18,7 @@
   height: 100%;
   background: #e79e16;
   text-overflow: ellipsis;
-  padding: 40px;   
+  padding: 40px;
 }
 
 .content_head {
@@ -80,11 +80,15 @@ main > aside {
 
   .gallery {
     min-height: 380px;
-    max-height: 900px;
+    max-height: 450px;
+    max-width: 819px;
+    min-width: 821px;
+
     margin: 2px auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  }
+
+  #gallery {
+    margin: 2px auto;
   }
 
   .do_content {
