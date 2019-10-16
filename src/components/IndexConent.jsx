@@ -85,13 +85,13 @@ function IndexConent() {
           style={{paddingTop: '52px'}}
         >
           <h2>Our Vision</h2>
-          <p>
+          <p style={{maxWidth: '900px'}}>
             To build a sustainable, economically, and socially empowered society
             that brings up healthy generations
           </p>
           <section>
             <h2>Who Are We?</h2>
-            <p>
+            <p style={{maxWidth: '900px'}}>
               We are a women empowerment incubator that seeks to build the next
               generation of economically empowered women in Africa. We work with
               women and girls from underprivileged backgrounds and underserved

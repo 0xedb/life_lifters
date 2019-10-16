@@ -9,15 +9,16 @@
 }
 
 .do {
-  width: 100%;  
+  width: 100%;
+  min-width: 300px;
 }
 
 .do_content {
   width: 100%;
   height: 100%;
-  background: #b78d40;
+  background: #e79e16;
   text-overflow: ellipsis;
-  padding: 20px;
+  padding: 40px;   
 }
 
 .content_head {
@@ -25,7 +26,6 @@
   margin: 40px 10%;
   border-bottom: 2px dashed violet;
 }
-
 
 main > section,
 main > aside {
@@ -63,15 +63,10 @@ main > aside {
 .gallery {
   display: block;
   min-height: 560px;
-  max-height: 750px;
+  max-height: 850px;
 }
 
 @media (min-width: 640px) {
-  /* main > section,
-  main > aside {
-    text-align: unset;
-  } */
-
   .card_container {
     flex-flow: row wrap;
   }
@@ -84,11 +79,16 @@ main > aside {
   }
 
   .gallery {
-    min-height: 280px;
+    min-height: 380px;
     max-height: 900px;
+    margin: 2px auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 
-  .do_content { 
-    padding: 50px;
+  .do_content {
+    padding-left: 100px;
+    max-width: 900px;
   }
 }
