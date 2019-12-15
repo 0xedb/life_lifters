@@ -11,6 +11,7 @@
     "@blueprintjs/core": "^3.22.2",
     "gatsby": "^2.15.28",
     "gatsby-plugin-react-helmet": "^3.1.10",
+    "normalize.css": "^8.0.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-grid-gallery": "^0.5.5",
