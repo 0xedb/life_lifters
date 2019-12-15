@@ -11,12 +11,12 @@ import {
 	credit,
 	donate_vid
 } from '../static/css/donate.module.css';
-import { Button, Card, Elevation } from '@blueprintjs/core';
+import {  Card, Elevation } from '@blueprintjs/core';
 
 function Donate() {
 	return (
 		<section className={donate}>
-			<Card interactive={true} elevation={Elevation.TWO} className={donate_card}>
+			<Card  elevation={Elevation.TWO} className={donate_card}>
 				<div>
 					<Link to="/">Home</Link>
 				</div>
