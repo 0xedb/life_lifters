@@ -2,7 +2,15 @@ import React from 'react';
 import { Link } from 'gatsby';
 import donate_mobile from '../static/images/donate_mobile.jpg';
 import donate_big from '../static/images/donate_big.jpg';
-import { donate, donate_img, donate_card, donate_btn, donate_pic, credit } from '../static/css/donate.module.css';
+import {
+	donate,
+	donate_img,
+	donate_card,
+	donate_btn,
+	donate_pic,
+	credit,
+	donate_vid
+} from '../static/css/donate.module.css';
 import { Button, Card, Elevation } from '@blueprintjs/core';
 
 function Donate() {
@@ -47,8 +55,7 @@ function Donate() {
 			</Card>
 			<a className={credit} href="https://icons8.com/icon/46478/donate" rel="noreferrer noopener">
 				Donate icon by Icons8
-            </a>
-            <video></video>
+			</a>
 		</section>
 	);
 }

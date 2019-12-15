@@ -3,6 +3,7 @@ import menu from '../static/images/menu.svg';
 import close from '../static/images/menu_close.svg';
 import styles from '../static/css/navbar.module.css';
 import logo from '../static/images/logo.png';
+import {Link} from 'gatsby';
 
 function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -52,6 +53,9 @@ function NavBar() {
             <a href="#gallery">
               gallery
             </a>
+            <Link to="/donate">
+              donate
+            </Link>
           </div>
         </div>
         <div
@@ -71,24 +75,27 @@ function NavBar() {
         onClick={handleMenuClick}
       >
         <div className={styles.menu_center}>
-          <a className={styles.menu_link} href="#about">
+          <Link className={styles.menu_link} to="#about">
             about
-          </a>
-          <a className={styles.menu_link} href="#work">
+          </Link>
+          <Link className={styles.menu_link} to="#work">
             work
-          </a>
-          <a className={styles.menu_link} href="#programs">
+          </Link>
+          <Link className={styles.menu_link} to="#programs">
             programs
-          </a>
-          <a className={styles.menu_link} href="#team">
+          </Link>
+          <Link className={styles.menu_link} to="#team">
             team
-          </a>
-          <a className={styles.menu_link} href="#mentors">
+          </Link>
+          <Link className={styles.menu_link} to="#mentors">
             mentors
-          </a>
-          <a className={styles.menu_link} href="#gallery">
+          </Link>
+          <Link className={styles.menu_link} to="#gallery">
             gallery
-          </a>
+          </Link>
+          <Link className={styles.menu_link} to="/donate">
+            donate
+          </Link>
         </div>
       </div>
     </nav>
