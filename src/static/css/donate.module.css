@@ -1,9 +1,49 @@
-.donate {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    background-color: wheat;
-    justify-content: center;
-    align-items: center;
+.donate,
+.donate_img,
+.donate_btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.donate_btn {
+	flex-flow: column nowrap;
+}
+
+.donate {
+	min-height: 100vh;
+	width: 100%;
+	background-color: wheat;
+}
+
+.donate_img {
+    width: 100%;
+}
+
+.donate_card {
+	margin: 8px;
+    max-width: 990px;
+    width: 100%;
+    min-height: 700px;
+}
+
+
+.donate_pic {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.credit {
+    display: none;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    color: transparent
+}
+
+@media(min-width: 640px) {
+    .donate_card {
+
+    }
 }
