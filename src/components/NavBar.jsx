@@ -35,24 +35,24 @@ function NavBar() {
         </div>
         <div className={styles.nav_item} style={design.first}>
           <div className={styles.mid}>
-            <a href="#about">
+            <Link to="#about">
               about
-            </a>
-            <a href="#work">
+            </Link>
+            <Link to="#work">
               work
-            </a>
-            <a href="#programs">
+            </Link>
+            <Link to="#programs">
               programs
-            </a>
-            <a href="#team">
+            </Link>
+            <Link to="#team">
               team
-            </a>
-            <a href="#mentors">
+            </Link>
+            <Link to="#mentors">
               mentors
-            </a>
-            <a href="#gallery">
+            </Link>
+            <Link to="#gallery">
               gallery
-            </a>
+            </Link>
             <Link to="/donate">
               donate
             </Link>
