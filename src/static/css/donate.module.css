@@ -1,0 +1,9 @@
+.donate {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+
+}
