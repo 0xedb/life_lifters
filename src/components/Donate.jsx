@@ -42,7 +42,7 @@ function Donate() {
 				</div>
 				<div>
 					<a
-						href="https://secure.givelively.org/donate/she-s-the-first/cynthia-muhonja"
+						href="https://secure.givelively.org/donate/she-s-the-first/stf-girl-led-incubator/cynthia-muhonja"
 						rel="noreferrer noopener"
 						className={donate_btn}
 					>
