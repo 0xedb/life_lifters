@@ -24,15 +24,12 @@ function IndexHead() {
               </h1>
               We are unapologetic women rights activists
             </div>
-          </div>
-          <picture>
-            <source srcSet={main_bg_big} media="(min-width: 640px)" />
+          </div> 
             <img
               className={`${styles.page_bg_image} ${styles.full_dimension}`}
               src={main_bg}
               alt="background"
-            />
-          </picture>
+            /> 
         </div>
       </div>
       <div className={`${styles.flex_center} ${styles.real_center}`}>
