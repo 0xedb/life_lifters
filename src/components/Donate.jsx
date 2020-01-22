@@ -1,20 +1,20 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import donate_mobile from '../static/images/donate_mobile.jpg';
-import donate_big from '../static/images/donate_big.jpg';
+import React from "react";
+import { Link } from "gatsby";
+import donate_mobile from "../static/images/donate_mobile.jpg";
+import donate_big from "../static/images/donate_big.jpg";
 import {
-	donate,
-	donate_img,
-	donate_card,
-	donate_btn,
-	donate_pic,
-	credit,
-	donate_text
-} from '../static/css/donate.module.css';
-import {  Card, Elevation } from '@blueprintjs/core';
+  donate,
+  donate_img,
+  donate_card,
+  donate_btn,
+  donate_pic,
+  credit,
+  donate_text
+} from "../static/css/donate.module.css";
+import { Card, Elevation } from "@blueprintjs/core";
 
 function Donate() {
-	return (
+  return (
     <section className={donate}>
       <Card elevation={Elevation.TWO} className={donate_card}>
         <div>
@@ -50,8 +50,8 @@ function Donate() {
           </p>
         </div>
         <div>
-					<a
-					target="_blank"
+          <a
+            target="_blank"
             href="https://secure.givelively.org/donate/she-s-the-first/stf-girl-led-incubator/cynthia-muhonja"
             rel="noreferrer noopener"
             className={donate_btn}
