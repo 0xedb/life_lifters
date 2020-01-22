@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import donate_mobile from "../static/images/donate_mobile.jpg";
-import donate_big from "../static/images/donate_big.jpg";
+import donate_mobile from "../static/images/empower_girls.jpg";
+import donate_big from "../static/images/empower_girls0.jpg";
 import {
   donate,
   donate_img,
