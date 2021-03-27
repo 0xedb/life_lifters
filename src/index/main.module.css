@@ -1,0 +1,36 @@
+.main,
+.group {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding-top: var(--nav-height);
+  display: flex;
+  width: 100%;
+  max-width: var(--content-width);
+}
+
+.group { 
+    align-items: center;
+}
+
+.img {
+    height: 500px;
+}
+
+.img img {
+    object-fit: cover;
+    height: 500px;
+}
+
+.img {
+    display: none;
+}
+
+
+@media (min-width: 760px) {
+    .img {
+        display: unset;
+    }
+}

@@ -1,10 +1,10 @@
+import React from "react";
 import Page from "../components/page/Page";
-import Main from "../index/Main";
 
-export default function Index() {
+export default function donate() {
   return (
     <Page>
-      <Main />
+      <div>donate</div>
     </Page>
   );
 }
