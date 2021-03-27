@@ -1,10 +1,11 @@
 import Page from "../components/page/Page";
-import Main from "../index/Main";
+import Main from "../index/Main"; 
 
 export default function Index() {
   return (
     <Page>
-      <Main />
+      hello
+      {/* <Main />  */}
     </Page>
   );
 }

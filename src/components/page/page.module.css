@@ -2,10 +2,9 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  padding-top: var(--page-space);
   grid-template-rows: 1fr auto;
 }
 
 .page main {
-  padding-top: var(--nav-height);
+  padding-top: var(--section-space);
 }

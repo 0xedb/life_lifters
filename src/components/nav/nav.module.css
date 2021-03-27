@@ -8,8 +8,9 @@
   width: 100%;
   justify-content: center;
   position: fixed;
-  padding: 0 20px;
+  padding: var(--page-space) 20px;
   height: var(--nav-height);
+  border-bottom: 1px solid rgb(230, 230, 230);
 }
 
 .content {

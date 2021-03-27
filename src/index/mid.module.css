@@ -1,0 +1,8 @@
+.mid {
+  width: 100%;
+  /* padding-top: var(--section-space); */
+  background: blueviolet;
+  border-radius: 18px;
+  min-height: 500px;
+  padding: 8px;
+}
