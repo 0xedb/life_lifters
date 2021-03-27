@@ -1,0 +1,21 @@
+.content,
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  height: var(--nav-height);
+  background: wheat;
+  padding: 0 20px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background: crimson;
+  max-width: var(--content-width);
+}
