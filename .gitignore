@@ -4,6 +4,6 @@ node_modules
 .cache
 .vscode
 public
-.temp.next/
+.temp
 .next/
 .temp
